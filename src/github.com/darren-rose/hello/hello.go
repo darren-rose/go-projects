@@ -5,6 +5,6 @@ import (
 	"github.com/darren-rose/string"
 )
 
-func main(){
+func main() {
 	fmt.Println(string.Reverse("Hello World"))
 }

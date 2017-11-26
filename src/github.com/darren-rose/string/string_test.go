@@ -2,8 +2,7 @@ package string
 
 import "testing"
 
-
-func Test(t *testing.T){
+func Test(t *testing.T) {
 	var tests = []struct {
 		s, expected string
 	}{
@@ -11,7 +10,7 @@ func Test(t *testing.T){
 		{"world", "dlrow"},
 		{"dave", "evad"},
 		{"☹dave☀", "☀evad☹"},
-		{"",""},
+		{"", ""},
 	}
 
 	for _, test := range tests {
@@ -22,5 +21,3 @@ func Test(t *testing.T){
 	}
 
 }
-
-
